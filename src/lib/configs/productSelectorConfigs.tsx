@@ -9,6 +9,7 @@ export const initialProductSelectorContext: ProductSelectorContextType = {
   state: initialProductSelectorState,
   actions: {
     setProducts: () => {},
+    setVariants: () => {},
     setDiscountOfProduct: () => {},
     setDiscountOfVariant: () => {},
     setPickerOpen: () => {},
