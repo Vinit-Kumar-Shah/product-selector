@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --cream-dark-color: #D1D1D1;
+  --cream-light-color: #f5f5f5;
+  --green-color: #008060;
+  --blue-color: #0066FF;
+
+  --gray-dark-color: #949494;
+  --gray-light-color: #f0f0f0;
+  --gray-lighter-color: #7E8185;
+
+  --coal-dark-color: #4d4d4d;
+  --coal-light-color: #6e6e6e;
+  --coal-lighter-color: #e0e0e0;
+
+  --charcoal-color: #101010;
+
+  --carbon-dark-color: #1a1a1a;
+  --carbon-light-color: #1f1f1f;
+}
+
+@theme {
+  --color-cream-dark: var(--cream-dark-color);
+  --color-cream-light: var(--cream-light-color);
+  --color-green: var(--green-color);
+  --color-blue: var(--blue-color);
+  --color-gray-dark: var(--gray-dark-color);
+  --color-gray-light: var(--gray-light-color);
+  --color-gray-lighter: var(--gray-lighter-color);
+  --color-coal-dark: var(--coal-dark-color);
+  --color-coal-light: var(--coal-light-color);
+  --color-coal-lighter: var(--coal-lighter-color);
+  --color-charcoal: var(--charcoal-color);
+  --color-carbon-dark: var(--carbon-dark-color);
+  --color-carbon-light: var(--carbon-light-color);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* Used for marketing popup or any other place where we want custom font to be loaded
+   * Controlled under customBranding.tsx */
+  font-family: var(--popup-font-family, "Inter"), Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
